@@ -16,62 +16,51 @@ header {
     height: 150px;
   }
 
-  .botton-section {
-    background-color:  #EBDADD;
-  }
-
-#links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .logo-camila {
     width: 320px;
     margin-top: 1%;
-    /* margin-left: 180px; */
 }
-
-img {
-    width: 62px;
-}
-
-#logo-instagram {
-    width: 87px;
-}
-
-.testando {
-   display: flex;
-   flex-direction: column;
-   align-items:center;
-   justify-content:center;
-   background-color: #924555;
-   width: 200px;
-   height: 120px;
-   margin-left: 30%;
-   margin-top: 20%;
-   margin-bottom: 12px;
-   padding: 30%;
-   border-radius: 35px;
-   gap: 15px;
-}
-
 
 .botton-section {
+    background-color:  #EBDADD;
     display: flex;
     align-items:flex-start;
     justify-content: space-between;
 }
 
-
-.camila {
-    width: 550px;
-    margin-top: 70px;
-    margin-right: 120px;
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
 }
 
-#input-name , #input-email {
+.right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form-inscricao {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-color: #924555;
+    width: 200px;
+    height: 120px;
+    margin-left: 30%;
+    margin-top: 20%;
+    margin-bottom: 12px;
+    padding: 30%;
+    border-radius: 35px;
+    gap: 15px;
+ }
+
+ #input-name , #input-email {
     background-color: white;
+    color: black;
+    font-size: large;
     border: 0;
     border-radius: 40px;
     width: 400px;
@@ -93,17 +82,39 @@ button {
     font-weight: bold;
 }
 
-.left {
+#links {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
-.right {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: space-between;
+#logo-whatsapp {
+    width: 62px;
+}
+
+#logo-instagram {
+    width: 87px;
+}
+
+#img-camila {
+    width: 550px;
+    margin-top: 70px;
+    margin-right: 120px;
+}
+
+#warning {
+    color: #924555;
+    font-size: 15px;
+    margin-left: 35%;
+}
+
+#description {
+    text-align: center;
+    line-height: 45px;
+    width: 45%;
+    height: 250px;
+    margin-top: 10%;
+    gap: 15px;
 }
 
 .texto {
@@ -115,18 +126,3 @@ button {
     color: #924555;
     font-weight: bold;
 }
-
-#aviso {
-    color: #924555;
-    font-size: 15px;
-    margin-left: 35%;
-}
-
-#pensar {
-    text-align: center;
-    line-height: 45px;
-    width: 45%;
-    height: 250px;
-    margin-top: 10%;
-    gap: 15px;
- }
